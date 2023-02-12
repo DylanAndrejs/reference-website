@@ -5,49 +5,84 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Design 1 Reference Site</title>
-</head>
-<body>
-<h1>Web Design 1 Reference Site</h1>
-<h2>Naming Conventions:</h2>
-<h3>Always lowercase</h3>
-<ul>
-<li>camelCase</li>
-<li>lowercase</li>
-<li>MiXeDc AsE</li>
-<li>Capital Letter</li>
-<li> UPPERCASE</li>
-<li>Sentence case</li>
-<li> This is a Title Case</li> </ul>
-<br>
-<dt><strong>Good examples: </strong></dt>
-<dt> tree-branch-logo</dt>
-<dt>main.css</dt>
-<br>
-<dt><strong>Bad examples: </strong></dt>
-<dt> Today-In-History.html</dt>
-<dt>meatEatingDinosaur.jpg</dt>
-<h3>Only letters, numbers and dashes (-)</h3>
+  <header>
+    <h1>Web Design Reference Site</h1>
+    
+  <nav>
+    <ul>
+      <li><a href="#definitions"> Definitions </a></li>
+      <li><a href="#namingconventions">Naming Conventions</a></li>
+      <li> <a href="#bestpractisescommit"> Best Practises: Commit Messages
+        <a>        </li>
+          <li><a href="#commonhtml">Common HTML Elements</a></li>
+          <li><a href="#structuringcontent"> Structuring Content</a></li>
+         </ul>
+          </nav>
+ </header>
 
+  <main>
+<section id="definitions">
+  <h2> Definitions</h2>
+   <p><strong> HTML:</strong> Hypertext Markup Language is the
+    coding language used to describe the content of websites</p>
+   <p><strong>CSS:</strong> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+   <p><strong> Javascript:</strong> JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS </p>
+    <p><strong> Syntax:</strong> When writing in HTML, the tags used to define the purpose of the text follow a specific syntax. Elements have a start tag to indicate where they begin. Non-void elements have an end tag to indicate where they end. tag names are used within element start tags and end tags to give the element's name.</p>
+</section>
 
-<h2> Commit message best practises</h2>
-<ul>
-  <li> Minimum 3 words & 10 characters</li>
-  <li> Proper spelling & grammar</li>
-  <li>Capital sarting letter, no period</li>
-  <li> Must start with an imperative verb: Create, Fix, Add, Solve, etc.</li>
-  <li> Pretend every commit starts with the phrase: <strong>“This commit will…”</strong></li>
-  </ul>
-  <h1>Syntax</h1>
+<section id= "namingconventions">
+  <h2>Naming Conventions</h2>
+    <dl>  
+      <dt> Different Naming Conventions:</dt>
+      <dd> camelCase </dd>
+      <dd> lowercase </dd>
+      <dd> mIxED CaSe </dd>
+      <dd> Capital Letter </dd>
+      <dd> UPPERCASE </dd>
+      <dd> This is Ttitle Case </dd>
+    </dl>
+     <dl>
+      <dt><strong>Good examples: </strong></dt>
+       <dd> tree-branch-logo</dd>
+       <dd>main.css</dd>
+    </dl>
+     <dl>
+      <dt><strong>Bad examples: </strong></dt>
+       <dd> Today-In-History.html</dd>
+       <dd>meatEatingDinosaur.jpg</dd>
+    </dl>
+  <h3>Always lowercase, no spaces, only letters, numbers and dashes (-)</h3>
+</section>
+
+<section id= "bestpractisescommit">
+  <h2>Commit messages best practises</h2>
+  <ul>
+    <li> Minimum 3 words & 10 characters</li>
+    <li> Proper spelling & grammar</li>
+    <li>Capital sarting letter, no period</li>
+    <li> Must start with an imperative verb: Create, Fix, Add, Solve, etc.</li>
+    <li> Pretend every commit starts with the phrase: <strong>“This commit will…”</strong></li>
+    </ul>
+  </section>
+   
+<section id="commonhtml">
+<h2> Common HTML Elements</h2>
   <dl>
-  <dt><strong>Headings: </strong></dt>
-  <dd><strong>< h1 > </strong>open tag <dd><strong>< /h1 > </strong>close tag
+   <dt><strong>Headings: </strong></dt>
+    <dd><strong>&lt;h1&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/h1&gt; </strong>close tag </dd>
   </dl>
-  <br>
-  <strong><dt>< !DOCTYPE html ></dt></strong>
-  <blockquote>   The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every HTML or XHTML document. <br /> The DOCTYPE declaration is <strong>an instruction to the web browser about what version of HTML the page is written in.</strong></blockquote>
+   <dl> 
+   <dt><strong> &lt;!DOCTYPE html&gt; </strong></dt>
+   <blockquote>   The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every HTML or XHTML document. The DOCTYPE declaration is <strong>an instruction to the web browser about what version of HTML the page is written in.</strong></blockquote>
+   </dl>
+   <dl>
     <dt><strong>Paragraphs: </strong></dt>
     <dd><strong>&lt;p&gt; </strong>open tag </dd>
-  <dd><strong>&lt;/p&gt; </strong>close tag</dd>
+     <dd><strong>&lt;/p&gt; </strong>close tag</dd>
+   </dl>
+<h1> Headings:</h1>
+
 <h1> &lt;h1&gt; headings mark importance based on their value &lt;/h1&gt; </h1> 
 <h2> &lt;h2&gt; headings mark importance based on their value &lt;/h2&gt;</h2> 
 <h3> &lt;h3&gt; headings mark importance based on their value &lt;/h3&gt;</h3> 
@@ -55,39 +90,155 @@
 <h5> &lt;/h5&gt; headings mark importance based on their value &lt;/h5&gt;</h5> 
 <h6> &lt;/h6&gt; headings mark importance based on their value &lt;/h6&gt;</h6> 
 
-
-
-
-  <dt><strong>Lists: </strong></dt>
-  <br>
+<h3> Lists: </h3> 
+<dl>
   <dt> Unordered List:</dt>
   <ul>
-  <li> &lt;li&gt; List item &lt;/li&gt; </li>
-  <li> Second item example</li>
+    <li> <strong>&lt;ul&gt; </strong>List heading <strong>&lt;/ul&gt;</strong> </li>
+    <li> <strong>&lt;li&gt; </strong>List item <strong>&lt;/li&gt;</strong> </li>
+     <li> Second item example</li>
   </ul>
-<dt> Ordered Lists:</dt>
-<ol><li> &lt;li&gt; List item &lt;/li&gt;
-<li> Second item example</li></ol>
-<dt><strong>Quotes:</strong></dt>
-<br>
-<q> &lt;q&gt; </q> Used to mark up quotes embedded in other elements like a paragraph 
-<blockquote> &lt;blockquote&gt; for stand-alone quotes </blockquote>
-<cite> &lt;cite&gt; </cite>marking he source of a quote
 
-<dt><p><strong> Phrasing: </strong></p></dt>
-<p>&lt;em&gt; <em>emphasis</em></p>
-<p>&lt;strong&gt; <strong> strong /  bold emphasis</strong></p>
-<p>&lt;i&gt; <i>Another language, technical term, or title. Visual only italics.</i></p>
-<p>&lt;b&gt; <b>A keyword(bold)</b></p>
-<p>&lt;small&gt; <small>small text</small></p>
+<dt> Ordered Lists:</dt>
+<ol>
+  <li><strong>&lt;ol&gt; </strong>List heading <strong>&lt;/ol&gt;</strong></li>
+<li> &lt;li&gt; List item &lt;/li&gt;
+<li> Second item example</li></ol>
+</dl>
+
+<h3>Quotes:</h3>
+
+ <q> &lt;q&gt; </q> Used to mark up quotes embedded in other elements like a  paragraph 
+ <blockquote> &lt;blockquote&gt; for stand-alone quotes </blockquote>
+ <cite> &lt;cite&gt; </cite>marking he source of a quote
+
+<h3> Phrasing:</h3>
+ <p>&lt;em&gt; <em>emphasis</em></p>
+ <p>&lt;strong&gt; <strong> strong /  bold emphasis</strong></p>
+ <p>&lt;i&gt; <i>Another language, technical term, or title. Visual only italics.</i></p>
+ <p>&lt;b&gt; <b>A keyword(bold)</b></p>
+ <p>&lt;small&gt; <small>small text</small></p>
+
 <h1>Link Text</h1>
 <p>The opening &lt;a&gt; tells where the link should start and the closing &lt;/a&gt; indicates where the link ends. To create a hyperlink, you should use the &lt;a&gt; tag and href attribute, the value of which is the URL, or location, where the link is pointing to.</p>
-<dd><p><strong>&lt;a href=<em>"link text"</em> ="<em>"description"&lt;/a&gt;</em></strong></p></dd>
-</body>
-</html> 
+  <dd><p><strong>&lt;a href=<em>"link text"</em> ="<em>"description"&lt;/a&gt;</em></strong></p></dd>
+
+  <a href= "https://www.html.com")> Linked Text Example </a> </p>
 <h1>Link Image</h1>
-Images in websites are not embedded in the website but linked to by the HTML document.  Images need two attributes to specify extra details about the image: the location of the image and the alternative content.
-<dd><p><strong>&lt;img src="<em>image link"</em> alt="<em>image description"&gt;</em></strong></p></dd>
-<img src="https://www.codeinbook.com/images/element-and-tag-graphics.png"alt="HTML element diagram"/>
-</body>
-</html> 
+ Images in websites are not embedded in the website but linked to by the HTML document.  Images need two attributes to specify extra details about the image: the location of the image and the alternative content.
+ <dd><p><strong>&lt;img src="<em>image link"</em> alt="<em>image description"&gt;</em></strong></p></dd>
+<p>Linked Image Example:</p>
+ <img src="https://www.codeinbook.com/images/element-and-tag-graphics.png"alt="HTML element diagram" width="900" height="600"/>
+</section>
+
+<section id="structuringcontent">
+  <h2> Structuring Content</h2>
+<dl>
+    <h3>Headers:</h3>
+      <p> The header is the introductory content
+          usually at the top of the page and would
+          include a logo or company name and main
+          navigation. Headers are also within sections
+          and articles to introduce the content for
+          headings, subheadings, author, etc..</p>
+         <dd><strong>&lt;header&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/header&gt; </strong>close tag </dd>
+  </dl>
+<p>Header example from website: </p>
+  <header>
+    <h1>Web Design Reference Site</h1>
+    
+  <nav>
+    <ul>
+      <li><a href="#definitions"> Definitions </a></li>
+      <li><a href="#namingconventions">Naming Conventions</a></li>
+      <li> <a href="#bestpractisescommit"> Best Practises: Commit Messages
+        <a>        </li>
+          <li><a href="#commonhtml">Common HTML Elements</a></li>
+          <li><a href="#structuringcontent"> Structuring Content</a></li>
+         </ul>
+          </nav>
+ </header>
+
+  <dl>
+    <h3> Footers:</h3> 
+      <p> Many webpages end their pages with a
+        footer at the bottom. This often includes
+        lists of links, copyright information,
+        extra information about the company,
+        terms and services.</p>
+         <dd><strong>&lt;footer&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/footer&gt; </strong>close tag </dd>
+  </dl>
+<p> Footer example at bottom of website</p>
+  <dl>
+      <h3> Main: </h3>
+       <p> The main element wraps around the main
+        content of the page. It’s only used once
+        per page and it tells the browser that
+        this is where the main content is.
+        </p>
+         <dd><strong>&lt;main&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/main&gt; </strong>close tag </dd>
+  </dl>
+
+  <dl>
+   <h3>Section:</h3>
+      <p> Section is used to wrap around related
+        pieces of content. Usually each section
+        has its own heading.
+        </p>
+         <dd><strong>&lt;section&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/section&gt; </strong>close tag </dd>
+  </dl>
+
+  <dl>
+    <h3> Article</h3>
+      <p> The article element represents a self-
+        contained composition in a web page, which is
+        intended to be independently distributable or
+        reusable. Examples include blog post, product
+        card, interactive widget, etc... </p>
+         <dd><strong>&lt;article&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/article&gt; </strong>close tag </dd>
+  </dl>
+  <article>
+    <h3>Example Article: Stüssy 2019 Summer Grind Magazine </h3>
+      
+      <img src="https://cdn.shopify.com/s/files/1/0343/3988/1005/files/grind.editorial-shit_1296x.jpg?v=1656453038" style= "width:30%;" alt="stussyphoto">
+      <img src="https://cdn.shopify.com/s/files/1/0343/3988/1005/files/Grind.Editorial-3542_23_1296x.jpg?v=1656452886"style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" alt="stussyphoto2"/>
+       <p>For Summer 2019 <em>Stüssy</em> brings its coastal energy to the city so nice they named it twice. Trading the cool beach breeze for the hot wind from the subway grates. Photographer Ari Marcopoulos intimately captures the New York Chapter staff in their natural habitat, wearing a relaxed collection of gear appropriate for any summer adventure.</p>
+     <a href="https://www.stussy.com/blogs/features/summer-19-grind-magazine" >Read more</a>
+  </article>
+
+  <dl>
+    <h3> Nav: </h3>
+      <p> The nav element represents a section of a
+        page whose purpose is to provide
+        navigation links, either within the
+        current document or to other documents.
+        </p>
+         <dd><strong>&lt;nav&gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/nav &gt; </strong>close tag </dd>
+  </dl> 
+<img src="https://i.stack.imgur.com/WPBi4.png"alt="HTML element diagram">
+  
+  <dl>
+    <h3> Aside:</h3>
+    The aside element represents a portion of
+    a document whose content is only
+    indirectly related to the document's main
+    content. This content will frequently be
+    presented as a sidebar on a website. </p>
+         <dd><strong>&lt;aside &gt;  </strong>open tag </dd>
+    <dd><strong> &lt;/aside&gt; </strong>close tag </dd>
+  </dl>
+
+  <footer>
+
+    <p><small> Footer Exmaple.</small></p>
+  </footer>
+
+
+
+
