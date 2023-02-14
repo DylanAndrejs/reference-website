@@ -16,7 +16,7 @@
         <a>        </li>
           <li><a href="#commonhtml">Common HTML Elements</a></li>
           <li><a href="#structuringcontent"> Structuring Content</a></li>
-         </ul>
+          <li><a href="#accessibility"> Accessibility</a></li> </ul>
           </nav>
  </header>
 
@@ -28,7 +28,23 @@
    <p><strong>CSS:</strong> Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
    <p><strong> Javascript:</strong> JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more. It allows you to implement dynamic features on web pages that cannot be done with only HTML and CSS </p>
     <p><strong> Syntax:</strong> When writing in HTML, the tags used to define the purpose of the text follow a specific syntax. Elements have a start tag to indicate where they begin. Non-void elements have an end tag to indicate where they end. tag names are used within element start tags and end tags to give the element's name.</p>
+    <p><strong> Accessibility:</strong> Web accessibility means everyone, including users with disabilities, will have an ideal experience and can access the information equally.</p>
+    <p><strong>WAI-ARIA:</strong>Web Accessibility Initiative
+    WAI) has a specification called
+    Accessible Rich Internet
+    Application (ARIA)</p>
 </section>
+
+
+
+
+
+
+
+
+
+
+
 
 <section id= "namingconventions">
   <h2>Naming Conventions</h2>
@@ -233,11 +249,62 @@
          <dd><strong>&lt;aside &gt;  </strong>open tag </dd>
     <dd><strong> &lt;/aside&gt; </strong>close tag </dd>
   </dl>
+  </section>
+
+  <section id="accessibility">
+<h2>Accessibility</h2>
+<p> Websites must comply with the <strong>Web Content Accessibility Guidelines</strong> (WCAG) 2.0 </p>
+
+
+
+
+<dl>
+  <h3> &lt;header role = "banner"&gt;  </strong> open tag  </h3>
+    <p> This role is for defining an element as the
+      masthead, added to the primary &lt;header&gt; </p>
+</dl> 
+
+
+<dl>
+  <h3> &lt;nav role = "navigation"&gt;  </strong> open tag  </h3>
+    <p>This role is for defining an element as the
+      primary navigation, added the the top &lt;navigation&gt; </p>
+</dl> 
+
+<dl>
+  <h3> &lt;main role = "main"&gt;</strong> open tag  </h3>
+    <p>This role is for defining an element as
+      being the main content of the page, added
+      to the &lt;main&gt; </p>
+</dl> 
+<dl>
+  <h3> aside role = "complimentary"&gt;</strong> open tag  </h3>
+    <p> This role is for defining an element as being
+      content related to the primary content,
+      usually added to an &lt;aside&gt;
+       </p> 
+</dl> 
+
+<dl>
+  <h3> &lt;footer role = "contentinfo"&gt;  </strong> open tag  </h3>
+    <p> This role is for defining an element as
+      information about the content: e.g.
+      copyright, terms, privacy policy, usually
+      added to a &lt;footer&gt; </p>
+</dl> 
+
+
+
+
+
+
+
+
 
   <footer>
-
-    <p><small> Footer Exmaple.</small></p>
+  <p><small> Footer Exmaple.</small></p>
   </footer>
+
 
 
 
